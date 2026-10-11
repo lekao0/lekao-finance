@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="logo.png" width="110" alt="Lekao Métodos logo">
+  <img src="logo.png" width="110" alt="Lekao Finance logo">
 </p>
 
-<h1 align="center">Lekao Métodos</h1>
+<h1 align="center">Lekao Finance</h1>
 
 <p align="center">
   A mobile-first personal finance & income tracker (PWA), plus a Python data pipeline that feeds it.
@@ -16,7 +16,7 @@
 
 I work with several online income streams at once: freelance and AI training tasks, crypto, affiliate programs, referrals and investments. Spreadsheets stopped being enough, so I built my own app to track all of them in one place, on both phone and PC.
 
-Lekao Métodos is an installable **Progressive Web App**: it works offline, syncs to the cloud with Google sign-in, and sends push notifications. It is written in **plain HTML, CSS and JavaScript with no framework or build step**.
+Lekao Finance is an installable **Progressive Web App**: it works offline, syncs to the cloud with Google sign-in, and sends push notifications. It is written in **plain HTML, CSS and JavaScript with no framework or build step**.
 
 ## App features
 
