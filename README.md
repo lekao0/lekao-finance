@@ -20,8 +20,12 @@ Lekao Métodos is an installable **Progressive Web App**: it works offline, sync
 
 ## App features
 
-- **Dashboard:** total result, calendar view, charts, bankroll evolution and goals
-- **One tab per income source:** freelance, AI training, crypto, affiliate/CPA, referrals, investments and more
+- **Dashboard:** total cash, month result vs. previous month, expenses, net balance, per-source breakdown and an **end-of-month projection** based on the current pace
+- **One tab per income source:** freelance, AI training, crypto, affiliate/CPA, referrals, investments and more. Each one has its own records, monthly goal with progress bar, and a statistics view filterable by today / 7 days / month / all time
+- **AI training stats:** earnings per platform, per weekday and per month, plus a cumulative earnings chart
+- **Investments:** tracks yields per source and shows today's **CDI rate** and the savings-account rate for comparison
+- **Crypto:** trades, crypto games, referral programs and liquidity pools in one place, with a live **USDT/BRL** quote
+- **Freelance:** income per client, best client, pending payments and hourly rate when hours are logged
 - **Central calculation layer:** every number in the app comes from a single module, so all tabs always agree
 - **Finances:** fixed bills, expenses, net worth and a yearly income-tax (IRPF) helper
 - **AI-assisted import:** upload a screenshot and the **Claude API** extracts the entries automatically
@@ -29,6 +33,7 @@ Lekao Métodos is an installable **Progressive Web App**: it works offline, sync
 - **Custom tabs** created by the user: notes, checklists, goals
 - **Team mode:** invite a partner by e-mail with access limited to shared data only, enforced by Firestore security rules
 - **Security:** locked vault area, daily automatic cloud backups, CSV export and reports
+- **Privacy mode:** one tap hides every money value on screen (like banking apps), useful for sharing screenshots
 - **Push notifications** through Firebase Cloud Messaging
 - Dark and light themes, responsive layout down to 360px
 
@@ -65,11 +70,25 @@ A companion Python tool collects and maintains a catalog of affiliate partner si
 - Versioned service-worker cache so phones always get the latest release
 - Automated UI tests with Playwright on desktop (1440×900) and mobile (392×850) viewports
 
-## Screenshot
+## Screenshots
 
-![Dashboard (privacy mode on: values hidden)](screenshot-dashboard.jpg)
+*All screenshots were taken with the built-in privacy mode on, which hides money values.*
 
-*Dashboard with the built-in privacy mode on, which hides all money values.*
+**Dashboard**
+
+![Dashboard](screenshot-dashboard.jpg)
+
+| AI training: statistics | Investments |
+|---|---|
+| ![AI training](screenshot-ai-training.jpg) | ![Investments](screenshot-investments.jpg) |
+
+| Crypto | Freelance |
+|---|---|
+| ![Crypto](screenshot-crypto.jpg) | ![Freelance](screenshot-freelance.jpg) |
+
+**Referrals**
+
+![Referrals](screenshot-referrals.jpg)
 
 ## Tech stack
 
